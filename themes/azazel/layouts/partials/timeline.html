@@ -1,0 +1,69 @@
+{{ $timelineResources := .Resources.Match "timeline/*" }}
+{{ if $timelineResources }}
+  {{ $steps := dict }}
+  {{ range $timelineResources }}
+    {{ $name := .Name }}
+    {{ $matches := findRE `^(\d{2})` $name }}
+    {{ if $matches }}
+      {{ $nn := index $matches 0 }}
+      {{ $current := index $steps $nn | default dict }}
+      {{ if strings.HasSuffix $name ".md" }}
+        {{ $current = merge $current (dict "text" .) }}
+      {{ else if strings.HasSuffix $name ".url" }}
+        {{ $current = merge $current (dict "media" . "type" "url") }}
+      {{ else if strings.HasSuffix $name ".mp4" }}
+        {{ $current = merge $current (dict "media" . "type" "video") }}
+      {{ else if or (strings.HasSuffix $name ".jpg") (strings.HasSuffix $name ".png") (strings.HasSuffix $name ".webp") }}
+        {{ $current = merge $current (dict "media" . "type" "image") }}
+      {{ end }}
+      {{ $steps = merge $steps (dict $nn $current) }}
+    {{ end }}
+  {{ end }}
+  {{ if and (eq .Section "edits") (.Resources.Match "final.*" | first) }}
+    {{ $final := .Resources.Match "final.*" | first }}
+    {{ $notes := .Resources.GetMatch "notes.md" }}
+    {{ $textContent := "" }}
+    {{ if $notes }}
+      {{ $lines := split $notes.Content "\n" }}
+      {{ $firstPara := index $lines 0 }}
+      {{ $textContent = $firstPara }}
+    {{ end }}
+    {{ $lastNN := 0 }}
+    {{ range $key := keys $steps }}
+      {{ if gt (int $key) $lastNN }}
+        {{ $lastNN = int $key }}
+      {{ end }}
+    {{ end }}
+    {{ $nextNN := printf "%02d" (add $lastNN 1) }}
+    {{ $steps = merge $steps (dict $nextNN (dict "media" $final "type" "image" "text" (dict "Content" $textContent))) }}
+  {{ end }}
+  {{ $sortedKeys := sort (keys $steps) }}
+  <nav class="timeline-nav">
+    {{ range $index, $key := $sortedKeys }}
+      <button data-step="{{ $key }}" aria-controls="timeline-viewer" aria-pressed="{{ if eq $index 0 }}true{{ else }}false{{ end }}">{{ $key }}</button>
+    {{ end }}
+  </nav>
+  <div id="timeline-viewer" class="timeline-viewer">
+    {{ range $index, $key := $sortedKeys }}
+      {{ $step := index $steps $key }}
+      <div data-step="{{ $key }}" class="timeline-step {{ if eq $index 0 }}is-active{{ end }}" {{ if $step.text }}data-caption="{{ $step.text.Content | markdownify | safeHTMLAttr }}"{{ end }}>
+        {{ if eq $step.type "image" }}
+          <img src="{{ $step.media.Permalink }}" alt="Paso {{ $key }} de {{ $.Title }}">
+        {{ else if eq $step.type "video" }}
+          <video controls>
+            <source src="{{ $step.media.Permalink }}" type="video/mp4">
+          </video>
+        {{ else if eq $step.type "url" }}
+          {{ $url := $step.media.Content | chomp }}
+          <div data-url="{{ $url }}" class="timeline-url"></div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+  <div id="timeline-caption" class="timeline-caption">
+    {{ $firstStep := index $steps (index $sortedKeys 0) }}
+    {{ if $firstStep.text }}
+      {{ $firstStep.text.Content | markdownify }}
+    {{ end }}
+  </div>
+{{ end }}

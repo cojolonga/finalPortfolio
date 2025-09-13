@@ -1,0 +1,24 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+<section class="grid">
+  {{ range .Pages }}
+    <div class="card">
+      <a href="{{ .RelPermalink }}">
+        {{ $thumb := .Resources.Match "thumb.*" | first }}
+        {{ if $thumb }}
+          <img src="{{ $thumb.Permalink }}" alt="{{ .Title }}">
+        {{ else }}
+          {{ $img := .Resources.Match "*.*" | first }}
+          {{ if $img }}
+            <img src="{{ $img.Permalink }}" alt="{{ .Title }}">
+          {{ else }}
+            <div style="background: var(--card-bg); height: 200px; display: flex; align-items: center; justify-content: center; color: var(--text-color);">No Image</div>
+          {{ end }}
+        {{ end }}
+      </a>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    </div>
+  {{ end }}
+</section>
+{{ end }}

@@ -1,0 +1,22 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ $notes := .Resources.GetMatch "notes.md" }}
+{{ if $notes }}
+  <div class="notes">
+    {{ $notes.Content | markdownify }}
+  </div>
+{{ end }}
+
+{{ if eq .Section "restores" }}
+  {{ partial "slider" . }}
+{{ else if eq .Section "edits" }}
+  {{ partial "arrow-layout" . }}
+{{ else if eq .Section "videos" }}
+  {{ partial "video-embed" . }}
+{{ end }}
+
+{{ if .Resources.Match "timeline/*" }}
+  {{ partial "timeline" . }}
+{{ end }}
+{{ end }}

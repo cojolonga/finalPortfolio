@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="hero">
+  <h1>{{ .Site.Title }}</h1>
+  <p>{{ .Site.Params.description }}</p>
+  <a href="/restores" class="btn">Restores</a>
+  <a href="/edits" class="btn">Edits</a>
+  <a href="/videos" class="btn">Videos</a>
+  <a href="/timeline" class="btn">Timeline</a>
+</section>
+
+<section class="grid">
+  {{ range first 6 (where .Site.RegularPages.ByDate.Reverse "Section" "in" (slice "restores" "edits" "videos")) }}
+    <div class="card">
+      <a href="{{ .RelPermalink }}">
+        {{ $img := .Resources.Match "*.*" | first }}
+        {{ if $img }}
+          <img src="{{ $img.Permalink }}" alt="{{ .Title }}">
+        {{ else }}
+          <div style="background: var(--card-bg); height: 200px; display: flex; align-items: center; justify-content: center; color: var(--text-color);">No Image</div>
+        {{ end }}
+      </a>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p>{{ .Section | title }}</p>
+    </div>
+  {{ end }}
+</section>
+{{ end }}
