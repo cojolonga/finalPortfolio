@@ -1,6 +1,197 @@
 {
   "projects": [
     {
+      "slug": "videos-proy-vid7-short3",
+      "category": "videos",
+      "title": "PROY-VID7-short3",
+      "cover": null,
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "url",
+          "href": "https://www.youtube.com/shorts/bBXBdxYhau4"
+        }
+      }
+    },
+    {
+      "slug": "videos-proy-vid-short1",
+      "category": "videos",
+      "title": "PROY-VID-short1",
+      "cover": null,
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "url",
+          "href": "https://www.youtube.com/shorts/UD53JuonT6E"
+        }
+      }
+    },
+    {
+      "slug": "videos-proy-vid3",
+      "category": "videos",
+      "title": "PROY-VID3",
+      "cover": "https://img.youtube.com/vi/ltvpn1mafE8/maxresdefault.jpg",
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "cover": "bvbbb.jpg",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "url",
+          "href": "https://www.youtube.com/watch?v=ltvpn1mafE8"
+        }
+      }
+    },
+    {
+      "slug": "videos-proy-vid1-promo1",
+      "category": "videos",
+      "title": "PROY-VID1-promo1",
+      "cover": null,
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "url",
+          "href": "https://youtube.com/shorts/3OBDQl1RMNE?feature=share"
+        }
+      }
+    },
+    {
+      "slug": "videos-proy-vid1",
+      "category": "videos",
+      "title": "PROY-VID1",
+      "cover": "https://img.youtube.com/vi/ZxZnB0H2kNk/maxresdefault.jpg",
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "url",
+          "href": "https://www.youtube.com/watch?v=ZxZnB0H2kNk"
+        }
+      }
+    },
+    {
       "slug": "restores-proy-009",
       "category": "restores",
       "title": "PROY-009",
@@ -259,85 +450,6 @@
       }
     },
     {
-      "slug": "videos-proy-vid1-promo1",
-      "category": "videos",
-      "title": "PROY-VID1-promo1",
-      "cover": "/thumbnails/PROY-VID1-promo1.jpg",
-      "info": {
-        "title": "Corporate Brand Video — Tech Startup",
-        "subtitle": "Product launch promotional video",
-        "steps": [
-          {
-            "n": 1,
-            "title": "Rough Cut",
-            "note": "Initial assembly of footage with basic transitions."
-          },
-          {
-            "n": 2,
-            "title": "Color Grading",
-            "note": "Professional color correction and cinematic look development."
-          },
-          {
-            "n": 3,
-            "title": "Motion Graphics",
-            "note": "Adding animated logos, text overlays, and visual effects."
-          }
-        ],
-        "tags": [
-          "video",
-          "corporate",
-          "branding"
-        ]
-      },
-      "video": {
-        "final": {
-          "type": "file",
-          "src": "/content/videos/PROY-VID1-promo1/workWatermark.mp4"
-        }
-      },
-      "videoCategory": "promo"
-    },
-    {
-      "slug": "videos-proy-vid3",
-      "category": "videos",
-      "title": "PROY-VID3",
-      "cover": "/thumbnails/PROY-VID3.jpg",
-      "info": {
-        "title": "Corporate Brand Video — Tech Startup",
-        "subtitle": "Product launch promotional video",
-        "cover": "bvbbb.jpg",
-        "steps": [
-          {
-            "n": 1,
-            "title": "Rough Cut",
-            "note": "Initial assembly of footage with basic transitions."
-          },
-          {
-            "n": 2,
-            "title": "Color Grading",
-            "note": "Professional color correction and cinematic look development."
-          },
-          {
-            "n": 3,
-            "title": "Motion Graphics",
-            "note": "Adding animated logos, text overlays, and visual effects."
-          }
-        ],
-        "tags": [
-          "video",
-          "corporate",
-          "branding"
-        ]
-      },
-      "video": {
-        "final": {
-          "type": "file",
-          "src": "/content/videos/PROY-VID3/The Vibe Coder.mp4"
-        }
-      },
-      "videoCategory": "longform"
-    },
-    {
       "slug": "videos-proy-vid9",
       "category": "videos",
       "title": "PROY-VID9",
@@ -411,45 +523,6 @@
         "final": {
           "type": "file",
           "src": "/content/videos/PROY-VID8-short4/Escucha el silencio.mp4"
-        }
-      },
-      "videoCategory": "shorts"
-    },
-    {
-      "slug": "videos-proy-vid7-short3",
-      "category": "videos",
-      "title": "PROY-VID7-short3",
-      "cover": "/thumbnails/PROY-VID7-short3.jpg",
-      "info": {
-        "title": "Corporate Brand Video — Tech Startup",
-        "subtitle": "Product launch promotional video",
-        "steps": [
-          {
-            "n": 1,
-            "title": "Rough Cut",
-            "note": "Initial assembly of footage with basic transitions."
-          },
-          {
-            "n": 2,
-            "title": "Color Grading",
-            "note": "Professional color correction and cinematic look development."
-          },
-          {
-            "n": 3,
-            "title": "Motion Graphics",
-            "note": "Adding animated logos, text overlays, and visual effects."
-          }
-        ],
-        "tags": [
-          "video",
-          "corporate",
-          "branding"
-        ]
-      },
-      "video": {
-        "final": {
-          "type": "file",
-          "src": "/content/videos/PROY-VID7-short3/Paguita la semana entera.mp4"
         }
       },
       "videoCategory": "shorts"
@@ -570,84 +643,6 @@
         }
       },
       "videoCategory": "promo"
-    },
-    {
-      "slug": "videos-proy-vid-short1",
-      "category": "videos",
-      "title": "PROY-VID-short1",
-      "cover": "/thumbnails/PROY-VID-short1.jpg",
-      "info": {
-        "title": "Corporate Brand Video — Tech Startup",
-        "subtitle": "Product launch promotional video",
-        "steps": [
-          {
-            "n": 1,
-            "title": "Rough Cut",
-            "note": "Initial assembly of footage with basic transitions."
-          },
-          {
-            "n": 2,
-            "title": "Color Grading",
-            "note": "Professional color correction and cinematic look development."
-          },
-          {
-            "n": 3,
-            "title": "Motion Graphics",
-            "note": "Adding animated logos, text overlays, and visual effects."
-          }
-        ],
-        "tags": [
-          "video",
-          "corporate",
-          "branding"
-        ]
-      },
-      "video": {
-        "final": {
-          "type": "file",
-          "src": "/content/videos/PROY-VID-short1/La que todo me lo paga.mp4"
-        }
-      },
-      "videoCategory": "shorts"
-    },
-    {
-      "slug": "videos-proy-vid1",
-      "category": "videos",
-      "title": "PROY-VID1",
-      "cover": "/thumbnails/PROY-VID1.jpg",
-      "info": {
-        "title": "Corporate Brand Video — Tech Startup",
-        "subtitle": "Product launch promotional video",
-        "steps": [
-          {
-            "n": 1,
-            "title": "Rough Cut",
-            "note": "Initial assembly of footage with basic transitions."
-          },
-          {
-            "n": 2,
-            "title": "Color Grading",
-            "note": "Professional color correction and cinematic look development."
-          },
-          {
-            "n": 3,
-            "title": "Motion Graphics",
-            "note": "Adding animated logos, text overlays, and visual effects."
-          }
-        ],
-        "tags": [
-          "video",
-          "corporate",
-          "branding"
-        ]
-      },
-      "video": {
-        "final": {
-          "type": "file",
-          "src": "/content/videos/PROY-VID1/GRACIAS POR EL FUEGO, PAPI SÁNCHEZ.mp4"
-        }
-      },
-      "videoCategory": "longform"
     },
     {
       "slug": "edits-proy-abc21",
