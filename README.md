@@ -1,148 +1,250 @@
-# Portfolio Hugo Site
+# 🔥 CRIFORGE
 
-This is a static portfolio site built with Hugo, hosted on GitHub Pages with automatic deployment.
+Portfolio 100% estático construido con Next.js (App Router, TypeScript) para mostrar trabajos de restauración fotográfica, edición y producción de video. El sitio se auto-genera desde una estructura de carpetas y se despliega en Vercel o GitHub Pages.
 
-## Features
+## ✨ Características
 
-- Red/black satanic theme with Cinzel titles and Roboto body.
-- Sections: Restores, Edits, Videos, Timeline.
-- Draggable before/after slider for restores.
-- Arrow layout for edits with sources and final.
-- Video embeds for YouTube or direct mp4.
-- Responsive design.
-- Git-based timeline with enableGitInfo.
+- **Tema Oscuro Moderno**: Estética roja/negra con fuentes Cinzel e Inter
+- **Auto-Generación**: El contenido se escanea automáticamente desde la carpeta `/content`
+- **Tres Tipos de Proyectos**:
+  - **Restauraciones**: Slider Before/After para trabajos de restauración
+  - **Ediciones**: Comparación Sources → Final con flecha animada
+  - **Videos**: Reproductor de video + timeline de proceso
+- **Timeline Interactivo**: Visualización paso a paso del proceso de cualquier proyecto
+- **Hosting Estático**: Sin backend, se despliega en Vercel o GitHub Pages
+- **Assets Remotos**: Soporte para archivos `.url` apuntando a Cloudinary/YouTube
 
-## Setup
+## 📁 Estructura del Proyecto
 
-1. Clone this repository.
-2. Install Hugo extended (latest version): Download from https://gohugo.io/installation/
-3. Run `hugo server` to preview locally.
-4. Change `baseURL` in `config.toml` to your GitHub Pages URL, e.g., `https://yourusername.github.io/yourrepo/`
-5. Commit and push to GitHub.
-6. In repository Settings > Pages, set Source to "GitHub Actions".
-7. Push again to trigger the workflow.
+```
+/content
+  /restores/NOMBRE-PROYECTO/
+    before.jpg              # Imagen dañada/original
+    after.jpg               # Imagen restaurada
+    timeline/               # Pasos del proceso (opcional)
+      01_Daño.jpg
+      02_Reparacion.jpg
+      03_Color.jpg
+    info.yml               # Información del proyecto (opcional)
+  
+  /edits/NOMBRE-PROYECTO/
+    sources/               # Imágenes fuente
+      src1.jpg
+      src2.jpg
+    final/                 # Resultado final
+      final.jpg
+    timeline/              # Pasos del proceso (opcional)
+      01_Base.jpg
+      02_Composicion.jpg
+    info.yml
+  
+  /videos/NOMBRE-PROYECTO/
+    final.url              # URL de YouTube o archivo de video
+    timeline/              # Pasos del proceso (opcional)
+      01_CorteRough.url
+      02_ColorGrading.url
+    info.yml
+```
 
-## Usage
+## 🎯 Cómo Añadir Tus Proyectos
 
-You don't need to program. Just drag folders to `content/` and push.
+### 📸 Para Proyectos de Restauración
 
-### Adding Projects
+1. **Crea una carpeta** en `/content/restores/` con el nombre de tu proyecto:
+   ```
+   /content/restores/MI-RESTAURACION/
+   ```
 
-#### Restores
+2. **Añade las imágenes requeridas**:
+   - `before.jpg` - La imagen dañada/original
+   - `after.jpg` - La imagen restaurada
+   
+   **Formatos soportados**: `.jpg`, `.jpeg`, `.png`, `.webp`
+   **Nombres exactos**: Deben empezar con "before" y "after"
 
-Create a folder `content/restores/yourproject/`
+3. **Opcional - Añade proceso paso a paso**:
+   ```
+   timeline/
+     01_Analisis.jpg     # Paso 1: Análisis del daño
+     02_Limpieza.jpg     # Paso 2: Limpieza inicial
+     03_Reparacion.jpg   # Paso 3: Reparación de grietas
+     04_Color.jpg        # Paso 4: Corrección de color
+   ```
 
-Add:
+### ✨ Para Proyectos de Edición
 
-- `before.jpg|png|webp`
-- `after.jpg|png|webp`
-- `notes.md` (optional markdown description)
+1. **Crea una carpeta** en `/content/edits/` con el nombre de tu proyecto:
+   ```
+   /content/edits/MI-EDICION/
+   ```
 
-The slider will show before/after.
+2. **Añade las imágenes fuente** en la carpeta `sources/`:
+   ```
+   sources/
+     imagen1.jpg
+     imagen2.jpg
+     imagen3.jpg
+   ```
 
-#### Edits
+3. **Añade el resultado final** en la carpeta `final/`:
+   ```
+   final/
+     resultado.jpg
+   ```
+   **Importante**: Solo una imagen en la carpeta final
 
-Create a folder `content/edits/yourproject/`
+### 🎬 Para Proyectos de Video
 
-Add:
+1. **Crea una carpeta** en `/content/videos/` con el nombre de tu proyecto:
+   ```
+   /content/videos/MI-VIDEO/
+   ```
 
-- `src_01.jpg|png|webp`, `src_02.jpg`, etc.
-- `final.jpg|png|webp`
-- `notes.md` (optional)
+2. **Añade el video final** (dos opciones):
+   
+   **Opción A - Video en YouTube**:
+   ```
+   final.url
+   ```
+   Contenido del archivo: `https://youtu.be/TU_VIDEO_ID`
+   
+   **Opción B - Video local**:
+   ```
+   final.mp4
+   ```
 
-Shows sources in column, arrow, final.
+### 📋 Archivo de Información (Opcional)
 
-#### Videos
+Puedes añadir un archivo `info.yml` en cualquier proyecto para personalizar la información:
 
-Create a folder `content/videos/yourproject/`
+```yaml
+title: "Restauración de Retrato Vintage"
+subtitle: "Fotografía familiar de los años 1940"
+steps:
+  - n: 1
+    title: "Análisis del Daño"
+    note: "Evaluación de grietas, manchas y decoloración."
+  - n: 2
+    title: "Reparación Estructural"
+    note: "Reconstrucción de áreas faltantes."
+  - n: 3
+    title: "Corrección de Color"
+    note: "Restauración de tonos originales."
+tags: [restauracion, vintage, retrato]
+```
 
-Add:
+## 🚀 Instalación y Desarrollo
 
-- Either `video.mp4` (local video)
-- Or `link.txt` with URL (YouTube, Cloudinary, direct mp4)
-- `thumb.jpg|png` (optional thumbnail)
-- `notes.md` (optional)
+### Instalación Inicial
+```bash
+npm install
+```
 
-If `video.mp4`, embeds HTML5 video.
+### Ejecutar en Desarrollo
+```bash
+npm run dev
+```
+El sitio estará disponible en `http://localhost:3000`
 
-If `link.txt`:
+### Generar Sitio para Producción
+```bash
+npm run build    # Ejecuta scan.mjs y luego construye el sitio
+npm run start    # Sirve la versión de producción
+npm run export   # Exporta para GitHub Pages
+```
 
-- YouTube: embeds player
-- Direct mp4: embeds video
-- Cloudinary: embeds iframe
+## 📝 Flujo de Trabajo Recomendado
 
-#### Timeline
+1. **Añade tus proyectos** siguiendo la estructura de carpetas
+2. **Ejecuta el desarrollo**: `npm run dev`
+3. **Verifica que todo se ve bien** en el navegador
+4. **Construye para producción**: `npm run build`
+5. **Despliega a Vercel** (recomendado) o GitHub Pages
 
-Add a `timeline/` folder to any project (restores, edits, videos) to create a step-by-step timeline.
+## 🌐 Opciones de Despliegue
 
-Files use two-digit prefix NN (01, 02, etc.):
+### Vercel (Recomendado) 🏆
+1. **Conecta tu repositorio** de GitHub a Vercel
+2. **No necesitas variables de entorno**
+3. **Despliegues automáticos** en cada push
+4. **Dominio gratuito** incluido
 
-- `NN.jpg|png|webp`: Image step
-- `NN.mp4`: Video step
-- `NN.url`: External media URL (YouTube, Cloudinary, direct mp4 or image)
-- `NN.md`: Markdown caption
+### GitHub Pages
+1. Ejecuta `npm run export`
+2. Despliega la carpeta `/out` a GitHub Pages
+3. Configura GitHub Actions para builds automáticos
 
-Steps ordered by NN ascending.
+### 📤 Cloudinary para Imágenes Pesadas (Opcional)
 
-For edits, if no final step, automatically adds a step with `final.*` and first paragraph of `notes.md`.
+Si tienes imágenes muy grandes:
 
-Supported URLs:
+1. **Regístrate gratis** en [Cloudinary](https://cloudinary.com)
+2. **Sube tus archivos** multimedia
+3. **Usa las URLs de Cloudinary** en archivos `.url`:
+   ```
+   https://res.cloudinary.com/tu-nombre-cloud/image/upload/v123456/tu-imagen.jpg
+   ```
 
-- YouTube: Embedded player
-- Direct .mp4: HTML5 video
-- Images: Direct display
-- Others: Iframe
+## 🔧 Personalización Avanzada
 
-Example: `content/restores/project/timeline/01.jpg`, `01.md`, `02.url`, etc.
+### Cambiar Colores del Tema
+Edita `tailwind.config.js` en la sección `colors.inferno`:
+```javascript
+'inferno': {
+  bg: '#000000',           // Fondo principal
+  accent: '#ff0000',       // Color de acento (rojo)
+  'accent-dark': '#cc0000' // Rojo más oscuro
+}
+```
 
-#### Notes
+### Modificar Fuentes
+Cambia las fuentes en `app/layout.tsx`:
+```javascript
+import { TuFuente, OtraFuente } from 'next/font/google'
+```
 
-- `notes.md` renders as description below.
-- Alt texts generated automatically, or override with "Alt: your alt" in notes.md
+## 🔍 Proceso de Auto-Generación
 
-### Timeline
+El script `scripts/scan.mjs` hace lo siguiente automáticamente:
+1. **Escanea** la carpeta `/content` buscando proyectos
+2. **Detecta el tipo** de proyecto según la estructura de archivos
+3. **Lee archivos `info.yml`** para obtener metadatos
+4. **Procesa archivos timeline** en orden numérico
+5. **Genera `app/_data/manifest.json`** con toda la información
+6. **Ordena proyectos** por fecha de modificación (más recientes primero)
 
-Automatically collects all projects, sorted by date (git or file).
+## 🎨 Componentes del Portfolio
 
-Shows mini preview, type, date, link.
+- `components/BeforeAfter.tsx` - Slider antes/después con animación
+- `components/ArrowCompare.tsx` - Comparación con flecha flotante animada
+- `components/Timeline.tsx` - Timeline interactivo del proceso
+- `components/Lightbox.tsx` - Lightbox para ver imágenes en grande
 
-## File Naming Rules
+## 📱 Características de Rendimiento
 
-- before.* / after.* for restores
-- src_*.{jpg,png,webp} for edit sources
-- final.* for edit final
-- video.mp4 for local video
-- link.txt for external video URL
-- thumb.* for video thumbnail
-- notes.md for description
-- NN.jpg|png|webp|mp4|url|md for timeline steps (NN=01,02,...)
+- **Generación Estática**: Todas las páginas se construyen en build time
+- **Optimización de Imágenes**: Componente Image de Next.js optimizado
+- **Prefetching**: Carga automática de links para navegación instantánea
+- **Componentes Cliente**: Solo elementos interactivos usan JavaScript
+- **Responsive**: Diseño adaptado para móviles y tablets
+- **Accesibilidad**: Navegación por teclado incluida
 
-## Customization
+## 🆘 Solución de Problemas
 
-- Theme in `themes/azazel/`
-- CSS in `static/css/main.css`
-- JS in `static/js/slider.js`
-- Change colors in CSS variables.
+### El proyecto no aparece en la web
+- ✅ Verifica que tienes los archivos requeridos (`before.jpg` + `after.jpg` para restauraciones)
+- ✅ Ejecuta `npm run dev` para regenerar el manifest
+- ✅ Revisa la consola por errores
 
-## Deployment
+### Las imágenes no se ven
+- ✅ Verifica que los nombres de archivo son correctos
+- ✅ Asegúrate de que las imágenes están en las carpetas correctas
+- ✅ Comprueba que los formatos son soportados (jpg, png, webp)
 
-Workflow in `.github/workflows/deploy.yml`
+### La flecha animada no se ve
+- ✅ Verifica que tienes tanto `sources/` como `final/` en proyectos de edición
+- ✅ Recarga la página completamente
 
-Triggers on push to main, builds with Hugo extended, deploys to Pages.
+## 📄 Licencia
 
-## Examples
-
-Included example projects with placeholders for demo, including a timeline in proyecto-001.
-
-Run `hugo server` to see.
-
-## Requirements
-
-- Hugo extended
-- GitHub repository
-- No databases, no JS frameworks.
-
-## Success Criteria
-
-- `hugo server` runs and shows examples.
-- Add new folder, push, site updates automatically.
+Este proyecto es open source y está disponible bajo la Licencia MIT.

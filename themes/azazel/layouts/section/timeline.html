@@ -1,8 +1,0 @@
-{{ define "main" }}
-<h1>{{ .Title }}</h1>
-
-{{ $allPages := where .Site.RegularPages "Section" "in" (slice "restores" "edits" "videos") }}
-{{ range $allPages.ByDate.Reverse }}
-  {{ partial "timeline-item" . }}
-{{ end }}
-{{ end }}

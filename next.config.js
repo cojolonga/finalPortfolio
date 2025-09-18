@@ -1,0 +1,18 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  basePath: process.env.NODE_ENV === 'production' ? '/finalPortfolio' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/finalPortfolio' : '',
+  images: {
+    unoptimized: true,
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    formats: ['image/webp'],
+  },
+  trailingSlash: true,
+  // Optimize build performance
+  swcMinify: true,
+  compress: true,
+}
+
+export default nextConfig

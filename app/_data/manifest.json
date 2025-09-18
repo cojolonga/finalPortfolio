@@ -1,0 +1,1507 @@
+{
+  "projects": [
+    {
+      "slug": "restores-proy-009",
+      "category": "restores",
+      "title": "PROY-009",
+      "cover": "/content/restores/PROY-009/after.jpg.webp",
+      "restore": {
+        "before": "/content/restores/PROY-009/before.jpg.webp",
+        "after": "/content/restores/PROY-009/after.jpg.webp"
+      }
+    },
+    {
+      "slug": "portraits-proy-port1",
+      "category": "portraits",
+      "title": "PROY-PORT1",
+      "cover": "/content/portraits/PROY-PORT1/final/can-anyone-do-a-linkdn-photo-maybe-with-a-suit-v0-axxquovdg3ef1.webp",
+      "portrait": {
+        "sources": [
+          "/content/portraits/PROY-PORT1/sources/can-anyone-do-a-linkdn-photo-maybe-with-a-suit-v0-tslaays4c3ef1.webp"
+        ],
+        "final": "/content/portraits/PROY-PORT1/final/can-anyone-do-a-linkdn-photo-maybe-with-a-suit-v0-axxquovdg3ef1.webp"
+      }
+    },
+    {
+      "slug": "portraits-proy-port5",
+      "category": "portraits",
+      "title": "PROY-PORT5",
+      "cover": "/content/portraits/PROY-PORT5/final/proguy2.png",
+      "portrait": {
+        "sources": [
+          "/content/portraits/PROY-PORT5/sources/proguy.png"
+        ],
+        "final": [
+          "/content/portraits/PROY-PORT5/final/proguy2.png",
+          "/content/portraits/PROY-PORT5/final/proguy3.png"
+        ]
+      }
+    },
+    {
+      "slug": "portraits-proy-port4",
+      "category": "portraits",
+      "title": "PROY-PORT4",
+      "cover": "/content/portraits/PROY-PORT4/final/profhedoriginal2.png",
+      "portrait": {
+        "sources": [
+          "/content/portraits/PROY-PORT4/sources/profhedoriginal.png"
+        ],
+        "final": "/content/portraits/PROY-PORT4/final/profhedoriginal2.png"
+      }
+    },
+    {
+      "slug": "portraits-proy-port3",
+      "category": "portraits",
+      "title": "PROY-PORT3",
+      "cover": "/content/portraits/PROY-PORT3/final/openart-image_6NxCAwV1_1752862788206_raw_clean.png",
+      "portrait": {
+        "sources": [
+          "/content/portraits/PROY-PORT3/sources/1vtc9wcsbodf1.jpeg"
+        ],
+        "final": "/content/portraits/PROY-PORT3/final/openart-image_6NxCAwV1_1752862788206_raw_clean.png"
+      }
+    },
+    {
+      "slug": "portraits-proy-port2",
+      "category": "portraits",
+      "title": "PROY-PORT2",
+      "cover": "/content/portraits/PROY-PORT2/final/openart-image_Aqw5Kmsj_1752842394246_raw_clean.png",
+      "portrait": {
+        "sources": [
+          "/content/portraits/PROY-PORT2/sources/professional-headshot-v0-ustmeptslmdf1.webp"
+        ],
+        "final": [
+          "/content/portraits/PROY-PORT2/final/openart-image_Aqw5Kmsj_1752842394246_raw_clean.png",
+          "/content/portraits/PROY-PORT2/final/openart-image_Guty0aiw_1752842198269_raw_clean.png"
+        ]
+      }
+    },
+    {
+      "slug": "edits-proy-abc25",
+      "category": "edits",
+      "title": "PROY-ABC25",
+      "cover": "/content/edits/PROY-ABC25/final/t-shirt-text-edit-v0-0vatw53ki3cf1.webp",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC25/sources/t-shirt-text-edit-v0-cy7ejugaxzbf1.webp"
+        ],
+        "final": "/content/edits/PROY-ABC25/final/t-shirt-text-edit-v0-0vatw53ki3cf1.webp"
+      }
+    },
+    {
+      "slug": "edits-proy-abc24",
+      "category": "edits",
+      "title": "PROY-ABC24",
+      "cover": "/content/edits/PROY-ABC24/final/9g4mox2pt2ef1.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC24/sources/7TBDWg2.jpeg"
+        ],
+        "final": "/content/edits/PROY-ABC24/final/9g4mox2pt2ef1.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc23",
+      "category": "edits",
+      "title": "PROY-ABC23",
+      "cover": "/content/edits/PROY-ABC23/final/add-creepy-ghost-like-figure-v0-ho3tl1rw7idf1.webp",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC23/sources/gmrkrafpbhdf1.jpeg"
+        ],
+        "final": "/content/edits/PROY-ABC23/final/add-creepy-ghost-like-figure-v0-ho3tl1rw7idf1.webp"
+      }
+    },
+    {
+      "slug": "edits-proy-abc22",
+      "category": "edits",
+      "title": "PROY-ABC22",
+      "cover": "/content/edits/PROY-ABC22/final/could-someone-kindly-swap-his-face-please-and-sharpen-the-v0-yrmu1c7cjncf1.webp",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC22/sources/zzsMhGS.jpeg"
+        ],
+        "final": "/content/edits/PROY-ABC22/final/could-someone-kindly-swap-his-face-please-and-sharpen-the-v0-yrmu1c7cjncf1.webp"
+      }
+    },
+    {
+      "slug": "restores-proy-008",
+      "category": "restores",
+      "title": "PROY-008",
+      "cover": "/content/restores/PROY-008/after.jpg.webp",
+      "restore": {
+        "before": "/content/restores/PROY-008/before.jpg.jpeg",
+        "after": "/content/restores/PROY-008/after.jpg.webp"
+      }
+    },
+    {
+      "slug": "restores-proy-007",
+      "category": "restores",
+      "title": "PROY-007",
+      "cover": "/content/restores/PROY-007/after.jpg.webp",
+      "restore": {
+        "before": "/content/restores/PROY-007/before.jpg.webp",
+        "after": "/content/restores/PROY-007/after.jpg.webp"
+      }
+    },
+    {
+      "slug": "restores-proy-006",
+      "category": "restores",
+      "title": "PROY-006",
+      "cover": "/content/restores/PROY-006/after.jpg.webp",
+      "restore": {
+        "before": "/content/restores/PROY-006/before.jpg.png",
+        "after": "/content/restores/PROY-006/after.jpg.webp"
+      }
+    },
+    {
+      "slug": "videos-proy-vid1-promo1",
+      "category": "videos",
+      "title": "PROY-VID1-promo1",
+      "cover": "/thumbnails/PROY-VID1-promo1.jpg",
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "file",
+          "src": "/content/videos/PROY-VID1-promo1/workWatermark.mp4"
+        }
+      },
+      "videoCategory": "promo"
+    },
+    {
+      "slug": "videos-proy-vid3",
+      "category": "videos",
+      "title": "PROY-VID3",
+      "cover": "/thumbnails/PROY-VID3.jpg",
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "cover": "bvbbb.jpg",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "file",
+          "src": "/content/videos/PROY-VID3/The Vibe Coder.mp4"
+        }
+      },
+      "videoCategory": "longform"
+    },
+    {
+      "slug": "videos-proy-vid9",
+      "category": "videos",
+      "title": "PROY-VID9",
+      "cover": "/thumbnails/PROY-VID9.jpg",
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "file",
+          "src": "/content/videos/PROY-VID9/letsgoooo2.mp4"
+        }
+      },
+      "videoCategory": "longform"
+    },
+    {
+      "slug": "videos-proy-vid8-short4",
+      "category": "videos",
+      "title": "PROY-VID8-short4",
+      "cover": "/thumbnails/PROY-VID8-short4.jpg",
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "file",
+          "src": "/content/videos/PROY-VID8-short4/Escucha el silencio.mp4"
+        }
+      },
+      "videoCategory": "shorts"
+    },
+    {
+      "slug": "videos-proy-vid7-short3",
+      "category": "videos",
+      "title": "PROY-VID7-short3",
+      "cover": "/thumbnails/PROY-VID7-short3.jpg",
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "file",
+          "src": "/content/videos/PROY-VID7-short3/Paguita la semana entera.mp4"
+        }
+      },
+      "videoCategory": "shorts"
+    },
+    {
+      "slug": "videos-proy-vid6-short2",
+      "category": "videos",
+      "title": "PROY-VID6-short2",
+      "cover": "/thumbnails/PROY-VID6-short2.jpg",
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "file",
+          "src": "/content/videos/PROY-VID6-short2/cobro la paguita que ricamp3.mp4"
+        }
+      },
+      "videoCategory": "shorts"
+    },
+    {
+      "slug": "videos-proy-vid5-promo3",
+      "category": "videos",
+      "title": "PROY-VID5-promo3",
+      "cover": "/thumbnails/PROY-VID5-promo3.jpg",
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "file",
+          "src": "/content/videos/PROY-VID5-promo3/newtry3.mp4"
+        }
+      },
+      "videoCategory": "promo"
+    },
+    {
+      "slug": "videos-proy-vid4-promo2",
+      "category": "videos",
+      "title": "PROY-VID4-promo2",
+      "cover": "/thumbnails/PROY-VID4-promo2.jpg",
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "file",
+          "src": "/content/videos/PROY-VID4-promo2/newtry2.mp4"
+        }
+      },
+      "videoCategory": "promo"
+    },
+    {
+      "slug": "videos-proy-vid-short1",
+      "category": "videos",
+      "title": "PROY-VID-short1",
+      "cover": "/thumbnails/PROY-VID-short1.jpg",
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "file",
+          "src": "/content/videos/PROY-VID-short1/La que todo me lo paga.mp4"
+        }
+      },
+      "videoCategory": "shorts"
+    },
+    {
+      "slug": "videos-proy-vid1",
+      "category": "videos",
+      "title": "PROY-VID1",
+      "cover": "/thumbnails/PROY-VID1.jpg",
+      "info": {
+        "title": "Corporate Brand Video — Tech Startup",
+        "subtitle": "Product launch promotional video",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Rough Cut",
+            "note": "Initial assembly of footage with basic transitions."
+          },
+          {
+            "n": 2,
+            "title": "Color Grading",
+            "note": "Professional color correction and cinematic look development."
+          },
+          {
+            "n": 3,
+            "title": "Motion Graphics",
+            "note": "Adding animated logos, text overlays, and visual effects."
+          }
+        ],
+        "tags": [
+          "video",
+          "corporate",
+          "branding"
+        ]
+      },
+      "video": {
+        "final": {
+          "type": "file",
+          "src": "/content/videos/PROY-VID1/GRACIAS POR EL FUEGO, PAPI SÁNCHEZ.mp4"
+        }
+      },
+      "videoCategory": "longform"
+    },
+    {
+      "slug": "edits-proy-abc21",
+      "category": "edits",
+      "title": "PROY-ABC21",
+      "cover": "/content/edits/PROY-ABC21/final/woman-baby2.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC21/sources/woman-baby.png",
+          "/content/edits/PROY-ABC21/sources/woman-dog.png"
+        ],
+        "final": "/content/edits/PROY-ABC21/final/woman-baby2.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc20",
+      "category": "edits",
+      "title": "PROY-ABC20",
+      "cover": "/content/edits/PROY-ABC20/final/woman2.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC20/sources/woman1.png"
+        ],
+        "final": "/content/edits/PROY-ABC20/final/woman2.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc19",
+      "category": "edits",
+      "title": "PROY-ABC19",
+      "cover": "/content/edits/PROY-ABC19/final/sketchout.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC19/sources/sketch.png"
+        ],
+        "final": "/content/edits/PROY-ABC19/final/sketchout.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc18",
+      "category": "edits",
+      "title": "PROY-ABC18",
+      "cover": "/content/edits/PROY-ABC18/final/removeguy1.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC18/sources/removeguy.png"
+        ],
+        "final": [
+          "/content/edits/PROY-ABC18/final/removeguy1.png",
+          "/content/edits/PROY-ABC18/final/removeguy2.png"
+        ]
+      }
+    },
+    {
+      "slug": "edits-proy-abc17",
+      "category": "edits",
+      "title": "PROY-ABC17",
+      "cover": "/content/edits/PROY-ABC17/final/reimagined.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC17/sources/reimagined0.png"
+        ],
+        "final": "/content/edits/PROY-ABC17/final/reimagined.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc14",
+      "category": "edits",
+      "title": "PROY-ABC14",
+      "cover": "/content/edits/PROY-ABC14/final/originalphotowomanquality.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC14/sources/originalphotowoman.png"
+        ],
+        "final": "/content/edits/PROY-ABC14/final/originalphotowomanquality.png"
+      }
+    },
+    {
+      "slug": "restores-proy-005",
+      "category": "restores",
+      "title": "PROY-005",
+      "cover": "/content/restores/PROY-005/after.jpg.png",
+      "restore": {
+        "before": "/content/restores/PROY-005/before.jpg.png",
+        "after": "/content/restores/PROY-005/after.jpg.png"
+      }
+    },
+    {
+      "slug": "restores-proy-004",
+      "category": "restores",
+      "title": "PROY-004",
+      "cover": "/content/restores/PROY-004/after.jpg.png",
+      "restore": {
+        "before": "/content/restores/PROY-004/before.jpg.png",
+        "after": "/content/restores/PROY-004/after.jpg.png"
+      }
+    },
+    {
+      "slug": "restores-proy-003",
+      "category": "restores",
+      "title": "PROY-003",
+      "cover": "/content/restores/PROY-003/after.jpg.png",
+      "restore": {
+        "before": "/content/restores/PROY-003/before.jpg.png",
+        "after": "/content/restores/PROY-003/after.jpg.png"
+      }
+    },
+    {
+      "slug": "restores-proy-002",
+      "category": "restores",
+      "title": "PROY-002",
+      "cover": "/content/restores/PROY-002/after.jpg.png",
+      "restore": {
+        "before": "/content/restores/PROY-002/before.jpg.png",
+        "after": "/content/restores/PROY-002/after.jpg.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc13",
+      "category": "edits",
+      "title": "PROY-ABC13",
+      "cover": "/content/edits/PROY-ABC13/final/originalphone2.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC13/sources/originalphone.png"
+        ],
+        "final": "/content/edits/PROY-ABC13/final/originalphone2.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc12",
+      "category": "edits",
+      "title": "PROY-ABC12",
+      "cover": "/content/edits/PROY-ABC12/final/originalkitten2.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC12/sources/originalkitten.png"
+        ],
+        "final": "/content/edits/PROY-ABC12/final/originalkitten2.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc11",
+      "category": "edits",
+      "title": "PROY-ABC11",
+      "cover": "/content/edits/PROY-ABC11/final/originalkid2.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC11/sources/originalkid.png",
+          "/content/edits/PROY-ABC11/sources/originalkidvinyl.png"
+        ],
+        "final": [
+          "/content/edits/PROY-ABC11/final/originalkid2.png",
+          "/content/edits/PROY-ABC11/final/originalkid3.png",
+          "/content/edits/PROY-ABC11/final/originalkid4.png"
+        ]
+      }
+    },
+    {
+      "slug": "edits-proy-abc10",
+      "category": "edits",
+      "title": "PROY-ABC10",
+      "cover": "/content/edits/PROY-ABC10/final/originalhurtdog.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC10/sources/originalhurtdog2.png"
+        ],
+        "final": "/content/edits/PROY-ABC10/final/originalhurtdog.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc8",
+      "category": "edits",
+      "title": "PROY-ABC8",
+      "cover": "/content/edits/PROY-ABC8/final/lebron3.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC8/sources/lebron.png",
+          "/content/edits/PROY-ABC8/sources/lebron2.png",
+          "/content/edits/PROY-ABC8/sources/lebronorb.png",
+          "/content/edits/PROY-ABC8/sources/lebronorb2.png",
+          "/content/edits/PROY-ABC8/sources/lebronorb3.png"
+        ],
+        "final": [
+          "/content/edits/PROY-ABC8/final/lebron3.png",
+          "/content/edits/PROY-ABC8/final/lebron4.png"
+        ]
+      }
+    },
+    {
+      "slug": "edits-proy-abc9",
+      "category": "edits",
+      "title": "PROY-ABC9",
+      "cover": "/content/edits/PROY-ABC9/final/originalbaby1.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC9/sources/originalbaby.png"
+        ],
+        "final": [
+          "/content/edits/PROY-ABC9/final/originalbaby1.png",
+          "/content/edits/PROY-ABC9/final/originalbaby2.png"
+        ]
+      }
+    },
+    {
+      "slug": "edits-proy-abc7",
+      "category": "edits",
+      "title": "PROY-ABC7",
+      "cover": "/content/edits/PROY-ABC7/final/greenhair2.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC7/sources/greenhair.png"
+        ],
+        "final": "/content/edits/PROY-ABC7/final/greenhair2.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc6",
+      "category": "edits",
+      "title": "PROY-ABC6",
+      "cover": "/content/edits/PROY-ABC6/final/gender2.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC6/sources/gender.png"
+        ],
+        "final": "/content/edits/PROY-ABC6/final/gender2.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc5",
+      "category": "edits",
+      "title": "PROY-ABC5",
+      "cover": "/content/edits/PROY-ABC5/final/funnydog2.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC5/sources/funnydog.png"
+        ],
+        "final": "/content/edits/PROY-ABC5/final/funnydog2.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc4",
+      "category": "edits",
+      "title": "PROY-ABC4",
+      "cover": "/content/edits/PROY-ABC4/final/fixcap2.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC4/sources/fixcap.png"
+        ],
+        "final": "/content/edits/PROY-ABC4/final/fixcap2.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc3",
+      "category": "edits",
+      "title": "PROY-ABC3",
+      "cover": "/content/edits/PROY-ABC3/final/drawingtext2.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC3/sources/drawingtext.png"
+        ],
+        "final": "/content/edits/PROY-ABC3/final/drawingtext2.png"
+      }
+    },
+    {
+      "slug": "edits-proy-abc2",
+      "category": "edits",
+      "title": "PROY-ABC2",
+      "cover": "/content/edits/PROY-ABC2/final/dog3.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC2/sources/dog1.png",
+          "/content/edits/PROY-ABC2/sources/dog2.png"
+        ],
+        "final": "/content/edits/PROY-ABC2/final/dog3.png"
+      }
+    },
+    {
+      "slug": "unknown-proy-0010",
+      "category": "unknown",
+      "title": "PROY-0010",
+      "cover": null
+    },
+    {
+      "slug": "unknown-proy-0011",
+      "category": "unknown",
+      "title": "PROY-0011",
+      "cover": null
+    },
+    {
+      "slug": "unknown-proy-0012",
+      "category": "unknown",
+      "title": "PROY-0012",
+      "cover": null
+    },
+    {
+      "slug": "unknown-proy-0013",
+      "category": "unknown",
+      "title": "PROY-0013",
+      "cover": null
+    },
+    {
+      "slug": "unknown-proy-0014",
+      "category": "unknown",
+      "title": "PROY-0014",
+      "cover": null
+    },
+    {
+      "slug": "unknown-proy-0015",
+      "category": "unknown",
+      "title": "PROY-0015",
+      "cover": null
+    },
+    {
+      "slug": "restores-proy-001",
+      "category": "restores",
+      "title": "PROY-001",
+      "cover": "/content/restores/PROY-001/after.jpg",
+      "info": {
+        "title": "Vintage Portrait Restoration — Family Heritage",
+        "subtitle": "1940s damaged family photograph restoration",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Damage Assessment",
+            "note": "Analyzing tears, stains, and fading to plan restoration approach."
+          },
+          {
+            "n": 2,
+            "title": "Structural Repair",
+            "note": "Reconstructing missing areas and repairing physical damage."
+          },
+          {
+            "n": 3,
+            "title": "Color Correction",
+            "note": "Restoring original tones and removing age-related discoloration."
+          }
+        ],
+        "tags": [
+          "restore",
+          "vintage",
+          "portrait"
+        ]
+      },
+      "restore": {
+        "before": "/content/restores/PROY-001/before.jpg",
+        "after": "/content/restores/PROY-001/after.jpg"
+      }
+    },
+    {
+      "slug": "edits-proy-abc",
+      "category": "edits",
+      "title": "PROY-ABC",
+      "cover": "/content/edits/PROY-ABC/final/blackdog2.png",
+      "info": {
+        "title": "Fantasy Composite — Dragon's Lair",
+        "subtitle": "Multi-source fantasy scene composition",
+        "steps": [
+          {
+            "n": 1,
+            "title": "Base Composition",
+            "note": "Combining landscape elements and establishing perspective."
+          },
+          {
+            "n": 2,
+            "title": "Character Integration",
+            "note": "Blending subject into the fantasy environment with proper lighting."
+          },
+          {
+            "n": 3,
+            "title": "Atmospheric Effects",
+            "note": "Adding fog, particles, and magical elements for realism."
+          }
+        ],
+        "tags": [
+          "edit",
+          "fantasy",
+          "composite"
+        ]
+      },
+      "edit": {
+        "sources": [
+          "/content/edits/PROY-ABC/sources/blackdog1.png"
+        ],
+        "final": "/content/edits/PROY-ABC/final/blackdog2.png"
+      }
+    }
+  ]
+}
