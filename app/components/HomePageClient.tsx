@@ -7,7 +7,7 @@ import CategorySection from '@/components/CategorySection'
 import VideoSection from '@/components/VideoSection'
 import ArrowCompare from '@/components/ArrowCompare'
 import BeforeAfter from '@/components/BeforeAfter'
-import ServiceCards from '@/components/ServiceCards'
+import WhatIDoGallery from '@/components/WhatIDoGallery'
 import ScrollReveal from '@/components/ScrollReveal'
 import StatsCounter from '@/components/StatsCounter'
 
@@ -120,26 +120,56 @@ function MainContent({ projects }: { projects: Project[] }) {
   return (
     <>
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-sm border-b border-criforge-gray">
+      <header className="fixed top-0 left-0 right-0 z-[100] backdrop-blur-md border-b transition-all duration-300" style={{
+        background: 'linear-gradient(to bottom, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 100%)',
+        borderColor: 'rgba(139, 69, 19, 0.3)',
+        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.3), 0 0 40px rgba(139, 69, 19, 0.1)'
+      }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <Link href="/" className="text-2xl font-cinzel font-bold">
-              <span className="text-criforge-accent">Ars</span><span className="text-white">AI</span>
+            <Link href="/" className="text-2xl font-cinzel font-bold transition-all duration-300 hover:scale-110" style={{
+              filter: 'drop-shadow(0 2px 8px rgba(139, 69, 19, 0.3))'
+            }}>
+              <span className="text-criforge-accent" style={{
+                textShadow: '0 0 15px rgba(139, 69, 19, 0.6)'
+              }}>Ars</span><span className="text-white" style={{
+                color: '#f8fafc',
+                textShadow: '0 0 10px rgba(255, 255, 255, 0.3)'
+              }}>AI</span>
             </Link>
             <nav className="hidden md:flex space-x-8">
-              <Link href="/" className="text-criforge-accent font-bold font-cinzel text-lg tracking-wide">
+              <Link href="/" className="text-criforge-accent font-bold font-cinzel text-lg tracking-wide transition-all duration-300 hover:scale-110" style={{
+                textShadow: '0 0 15px rgba(139, 69, 19, 0.8), 0 0 30px rgba(139, 69, 19, 0.4)',
+                filter: 'drop-shadow(0 2px 4px rgba(139, 69, 19, 0.3))'
+              }}>
                 HOME
               </Link>
-              <Link href="/restores" className="text-white hover:text-criforge-accent transition-colors font-bold font-cinzel text-lg tracking-wide">
+              <Link href="/restores" className="font-bold font-cinzel text-lg tracking-wide transition-all duration-300 hover:scale-110 hover:text-criforge-accent" style={{
+                color: '#f1f5f9',
+                textShadow: '0 0 8px rgba(255, 255, 255, 0.2)',
+                filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.3))'
+              }}>
                 RESTORATIONS
               </Link>
-              <Link href="/edits" className="text-white hover:text-criforge-accent transition-colors font-bold font-cinzel text-lg tracking-wide">
+              <Link href="/edits" className="font-bold font-cinzel text-lg tracking-wide transition-all duration-300 hover:scale-110 hover:text-criforge-accent" style={{
+                color: '#f1f5f9',
+                textShadow: '0 0 8px rgba(255, 255, 255, 0.2)',
+                filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.3))'
+              }}>
                 EDITS
               </Link>
-              <Link href="/portraits" className="text-white hover:text-criforge-accent transition-colors font-bold font-cinzel text-lg tracking-wide">
+              <Link href="/portraits" className="font-bold font-cinzel text-lg tracking-wide transition-all duration-300 hover:scale-110 hover:text-criforge-accent" style={{
+                color: '#f1f5f9',
+                textShadow: '0 0 8px rgba(255, 255, 255, 0.2)',
+                filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.3))'
+              }}>
                 PORTRAITS
               </Link>
-              <Link href="/videos" className="text-white hover:text-criforge-accent transition-colors font-bold font-cinzel text-lg tracking-wide">
+              <Link href="/videos" className="font-bold font-cinzel text-lg tracking-wide transition-all duration-300 hover:scale-110 hover:text-criforge-accent" style={{
+                color: '#f1f5f9',
+                textShadow: '0 0 8px rgba(255, 255, 255, 0.2)',
+                filter: 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.3))'
+              }}>
                 VIDEOS
               </Link>
             </nav>
@@ -154,14 +184,27 @@ function MainContent({ projects }: { projects: Project[] }) {
         <div className="max-w-7xl mx-auto">
           <ScrollReveal direction="fade" duration={1000}>
             <div className="text-center" style={{ marginBottom: '0px' }}>
-              <h1 className="text-6xl md:text-8xl font-cinzel font-bold tracking-wider" style={{
-                textShadow: '0 0 20px rgba(139, 69, 19, 0.6), 0 0 40px rgba(139, 69, 19, 0.3)',
-                marginBottom: '12px'
+              <h1 className="text-6xl md:text-8xl font-cinzel font-bold tracking-wider transition-all duration-700 hover:scale-105" style={{
+                textShadow: '0 0 30px rgba(139, 69, 19, 0.8), 0 0 60px rgba(139, 69, 19, 0.4), 0 0 100px rgba(139, 69, 19, 0.2)',
+                marginBottom: '12px',
+                filter: 'drop-shadow(0 4px 20px rgba(139, 69, 19, 0.3))'
               }}>
-                <span className="text-criforge-accent">Ars</span><span className="text-white">AI</span>
+                <span className="text-criforge-accent animate-pulse" style={{
+                  textShadow: '0 0 20px rgba(139, 69, 19, 0.9), 0 0 40px rgba(139, 69, 19, 0.6)'
+                }}>Ars</span><span className="text-white" style={{
+                  color: '#f8fafc',
+                  textShadow: '0 0 15px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 0.1)'
+                }}>AI</span>
               </h1>
-              <p className="text-xl md:text-2xl text-criforge-text-secondary max-w-5xl mx-auto leading-relaxed" style={{ marginBottom: '12px' }}>
-                Transforming moments into masterpieces through professional photo restoration, creative editing, and cinematic video production
+              <p className="text-xl md:text-2xl max-w-5xl mx-auto leading-relaxed font-medium transition-all duration-500 hover:scale-102" style={{ 
+                marginBottom: '12px',
+                color: '#e2e8f0',
+                textShadow: '0 2px 8px rgba(0, 0, 0, 0.3)',
+                filter: 'drop-shadow(0 1px 3px rgba(255, 255, 255, 0.1))'
+              }}>
+                <span className="bg-gradient-to-r from-slate-200 via-white to-slate-200 bg-clip-text text-transparent">
+                  Transforming moments into masterpieces through professional photo restoration, creative editing, and cinematic video production
+                </span>
               </p>
               
               {/* Stats */}
@@ -190,7 +233,7 @@ function MainContent({ projects }: { projects: Project[] }) {
       </section>
 
       {/* Services Section */}
-      <ServiceCards />
+      <WhatIDoGallery />
 
       {/* Category Sections */}
       <section className="py-12 px-4">
@@ -249,25 +292,45 @@ function MainContent({ projects }: { projects: Project[] }) {
       <section className="py-20 px-4">
         <ScrollReveal direction="fade" delay={500}>
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl md:text-6xl font-cinzel font-bold text-white mb-8">
-              Let's Work Together
+            <h2 className="text-4xl md:text-6xl font-cinzel font-bold mb-8 transition-all duration-700 hover:scale-105" style={{
+              color: '#f8fafc',
+              textShadow: '0 0 25px rgba(139, 69, 19, 0.6), 0 0 50px rgba(139, 69, 19, 0.3), 0 0 15px rgba(255, 255, 255, 0.2)',
+              filter: 'drop-shadow(0 4px 15px rgba(139, 69, 19, 0.2))'
+            }}>
+              <span className="bg-gradient-to-r from-white via-slate-100 to-white bg-clip-text text-transparent">
+                Let's Work Together
+              </span>
             </h2>
-            <p className="text-xl text-criforge-text-secondary leading-relaxed mb-12 max-w-3xl mx-auto">
-            Ready to bring your visual projects to life? Get in touch for professional photo restoration, 
-            creative editing, portraits, and video production services.
-          </p>
+            <p className="text-xl leading-relaxed mb-12 max-w-3xl mx-auto font-medium transition-all duration-500 hover:scale-102" style={{
+              color: '#e2e8f0',
+              textShadow: '0 2px 8px rgba(0, 0, 0, 0.3)',
+              filter: 'drop-shadow(0 1px 3px rgba(255, 255, 255, 0.1))'
+            }}>
+              <span className="bg-gradient-to-r from-slate-200 via-white to-slate-200 bg-clip-text text-transparent">
+                Ready to bring your visual projects to life? Get in touch for professional photo restoration, 
+                creative editing, portraits, and video production services.
+              </span>
+            </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
               href="https://upwork.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-8 py-4 bg-criforge-accent hover:bg-criforge-accent-dark text-white font-bold rounded-lg transition-all duration-300 transform hover:scale-105"
+              className="inline-flex items-center px-8 py-4 bg-criforge-accent hover:bg-criforge-accent-dark text-white font-bold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
+              style={{
+                boxShadow: '0 10px 25px rgba(139, 69, 19, 0.3), 0 0 20px rgba(139, 69, 19, 0.2)',
+                filter: 'drop-shadow(0 4px 15px rgba(139, 69, 19, 0.4))'
+              }}
             >
               Hire Me on Upwork
             </a>
             <a
               href="mailto:contact@arsai.com"
-              className="inline-flex items-center px-8 py-4 border-2 border-criforge-accent text-criforge-accent hover:bg-criforge-accent hover:text-white font-bold rounded-lg transition-all duration-300"
+              className="inline-flex items-center px-8 py-4 border-2 border-criforge-accent text-criforge-accent hover:bg-criforge-accent hover:text-white font-bold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
+              style={{
+                boxShadow: '0 8px 20px rgba(139, 69, 19, 0.2), inset 0 0 20px rgba(139, 69, 19, 0.1)',
+                textShadow: '0 0 10px rgba(139, 69, 19, 0.3)'
+              }}
             >
               Get in Touch
             </a>

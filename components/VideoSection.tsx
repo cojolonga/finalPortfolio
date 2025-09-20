@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import VideoPlayer from './VideoPlayer'
+import UniversalVideoPlayer from './UniversalVideoPlayer'
 
 interface VideoProject {
   slug: string
@@ -80,9 +80,9 @@ export default function VideoSection({ title, projects, description }: VideoSect
                     {verticalVideos.map((project) => (
                       <div key={project.slug} className="group relative w-[250px] aspect-[9/16]">
                         <div className="relative rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 w-full h-full">
-                          <VideoPlayer
-                            src={project.video?.final.src ?? ''}
-                            title={project.title}
+                          <UniversalVideoPlayer
+                            video={project.video!}
+                            title={project.info?.title || project.title}
                             poster={project.cover}
                             className="w-full h-full"
                             objectFit="cover"
@@ -105,9 +105,9 @@ export default function VideoSection({ title, projects, description }: VideoSect
                     {horizontalVideos.map((project) => (
                       <div key={project.slug} className="group relative w-full aspect-video">
                          <div className="relative rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 w-full h-full">
-                          <VideoPlayer
-                            src={project.video?.final.src ?? ''}
-                            title={project.title}
+                          <UniversalVideoPlayer
+                            video={project.video!}
+                            title={project.info?.title || project.title}
                             poster={project.cover}
                             className="w-full h-full"
                             objectFit="cover"

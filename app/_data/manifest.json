@@ -6,8 +6,9 @@
       "title": "PROY-VID7-short3",
       "cover": null,
       "info": {
-        "title": "Corporate Brand Video — Tech Startup",
-        "subtitle": "Product launch promotional video",
+        "title": "Paguita la semana entera",
+        "subtitle": "Short form video content",
+        "videoCategory": "shorts",
         "steps": [
           {
             "n": 1,
@@ -36,7 +37,8 @@
           "type": "url",
           "href": "https://www.youtube.com/shorts/bBXBdxYhau4"
         }
-      }
+      },
+      "videoCategory": "shorts"
     },
     {
       "slug": "videos-proy-vid-short1",
@@ -44,8 +46,9 @@
       "title": "PROY-VID-short1",
       "cover": null,
       "info": {
-        "title": "Corporate Brand Video — Tech Startup",
-        "subtitle": "Product launch promotional video",
+        "title": "La que todo me lo paga",
+        "subtitle": "Short form video content",
+        "videoCategory": "shorts",
         "steps": [
           {
             "n": 1,
@@ -74,7 +77,8 @@
           "type": "url",
           "href": "https://www.youtube.com/shorts/UD53JuonT6E"
         }
-      }
+      },
+      "videoCategory": "shorts"
     },
     {
       "slug": "videos-proy-vid3",
@@ -82,8 +86,9 @@
       "title": "PROY-VID3",
       "cover": "https://img.youtube.com/vi/ltvpn1mafE8/maxresdefault.jpg",
       "info": {
-        "title": "Corporate Brand Video — Tech Startup",
-        "subtitle": "Product launch promotional video",
+        "title": "The Vibe Coder",
+        "subtitle": "Long form video content",
+        "videoCategory": "longform",
         "cover": "bvbbb.jpg",
         "steps": [
           {
@@ -113,7 +118,8 @@
           "type": "url",
           "href": "https://www.youtube.com/watch?v=ltvpn1mafE8"
         }
-      }
+      },
+      "videoCategory": "longform"
     },
     {
       "slug": "videos-proy-vid1-promo1",
@@ -121,8 +127,9 @@
       "title": "PROY-VID1-promo1",
       "cover": null,
       "info": {
-        "title": "Corporate Brand Video — Tech Startup",
-        "subtitle": "Product launch promotional video",
+        "title": "Work Watermark Promo",
+        "subtitle": "Promotional video content",
+        "videoCategory": "promo",
         "steps": [
           {
             "n": 1,
@@ -151,7 +158,8 @@
           "type": "url",
           "href": "https://youtube.com/shorts/3OBDQl1RMNE?feature=share"
         }
-      }
+      },
+      "videoCategory": "promo"
     },
     {
       "slug": "videos-proy-vid1",
@@ -159,8 +167,9 @@
       "title": "PROY-VID1",
       "cover": "https://img.youtube.com/vi/ZxZnB0H2kNk/maxresdefault.jpg",
       "info": {
-        "title": "Corporate Brand Video — Tech Startup",
-        "subtitle": "Product launch promotional video",
+        "title": "GRACIAS POR EL FUEGO, PAPI SÁNCHEZ",
+        "subtitle": "Long form video content",
+        "videoCategory": "longform",
         "steps": [
           {
             "n": 1,
@@ -189,7 +198,8 @@
           "type": "url",
           "href": "https://www.youtube.com/watch?v=ZxZnB0H2kNk"
         }
-      }
+      },
+      "videoCategory": "longform"
     },
     {
       "slug": "restores-proy-009",

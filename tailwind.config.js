@@ -12,6 +12,9 @@ export default {
         'inter': ['Inter', 'sans-serif'],
       },
       colors: {
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
+        border: 'hsl(var(--border))',
         'criforge': {
           'bg': '#0b0b0b',
           'bg-secondary': '#1a1a1a', 
@@ -52,6 +55,7 @@ export default {
         'elongated-pulse': 'elongated-pulse 3s ease-in-out infinite',
         'arrow-head-glow': 'arrow-head-glow 2s ease-in-out infinite',
         'arrow-glow-wave': 'arrow-glow-wave 4s ease-in-out infinite',
+        'marquee': 'marquee var(--duration) linear infinite',
       },
       keyframes: {
         float: {
@@ -122,6 +126,10 @@ export default {
             opacity: '0.6',
             transform: 'scaleX(1.2)'
           },
+        },
+        'marquee': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(calc(-100% - var(--gap)))' },
         }
       },
       perspective: {

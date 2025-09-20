@@ -2,8 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import VideoPlayer from '@/components/VideoPlayer'
-import LongFormVideo from '@/components/LongFormVideo'
+import UniversalVideoPlayer from '@/components/UniversalVideoPlayer'
 
 interface Project {
   slug: string
@@ -83,11 +82,14 @@ export default function VideosClient({ projects }: VideosClientProps) {
                   <div key={project.slug} className="group">
                     <div className=" rounded-lg overflow-hidden hover-glow transition-all">
                       <div className="aspect-video bg-inferno-bg flex items-center justify-center relative">
-                        {project.video?.final.src ? (
-                          <LongFormVideo
-                            src={project.video.final.src}
+                        {project.video ? (
+                          <UniversalVideoPlayer
+                            video={project.video}
                             title={project.info?.title || project.title}
-                            thumbnail={project.cover}
+                            poster={project.cover}
+                            className="w-full h-full"
+                            objectFit="contain"
+                            showFullscreenButton={true}
                           />
                         ) : project.cover ? (
                           <Image 
@@ -119,9 +121,9 @@ export default function VideosClient({ projects }: VideosClientProps) {
                 {shortsVideos.map((project) => (
                   <div key={project.slug} className="flex-shrink-0">
                     <div className=" rounded-lg overflow-hidden w-48 h-80 relative">
-                      {project.video?.final.src ? (
-                        <VideoPlayer
-                          src={project.video.final.src}
+                      {project.video ? (
+                        <UniversalVideoPlayer
+                          video={project.video}
                           title={project.info?.title || project.title}
                           className="w-full h-full"
                           objectFit="cover"
@@ -154,9 +156,9 @@ export default function VideosClient({ projects }: VideosClientProps) {
                 {promoVideos.map((project) => (
                   <div key={project.slug} className="flex-shrink-0">
                     <div className=" rounded-lg overflow-hidden w-48 h-80 relative">
-                      {project.video?.final.src ? (
-                        <VideoPlayer
-                          src={project.video.final.src}
+                      {project.video ? (
+                        <UniversalVideoPlayer
+                          video={project.video}
                           title={project.info?.title || project.title}
                           className="w-full h-full"
                           objectFit="cover"

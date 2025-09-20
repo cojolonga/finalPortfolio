@@ -141,7 +141,7 @@ export default function ImageCarousel({ images, onImageClick }: ImageCarouselPro
     return <div className="w-full h-96" />
   }
 
-  // Increase render range to 3 for smoother transitions and preloading
+  // Render range of 3 shows 7 images total (3 left + center + 3 right)
   const renderRange = 3
 
   return (
@@ -163,36 +163,54 @@ export default function ImageCarousel({ images, onImageClick }: ImageCarouselPro
           const virtualPosition = indexOffset + dragOffset / (windowWidth * 0.22)
           const distance = Math.abs(virtualPosition)
 
-          // Progressive scale: center=1.0, sides=0.85, extremes=0.65
-          const scale = distance >= 2 
-            ? 0.65 
-            : (distance > 1 
-              ? lerp(0.85, 0.65, distance - 1)
-              : lerp(1, 0.85, distance))
+          // Progressive scale for 7 images: center=1.0, gradually smaller to edges
+          const scale = distance >= 3 
+            ? 0.45  // Outermost images (positions ±3)
+            : (distance >= 2.5
+              ? lerp(0.55, 0.45, (distance - 2.5) * 2)  // Position ±2.5 to ±3
+              : (distance >= 2
+                ? lerp(0.65, 0.55, (distance - 2) * 2)  // Position ±2 to ±2.5
+                : (distance >= 1.5
+                  ? lerp(0.75, 0.65, (distance - 1.5) * 2)  // Position ±1.5 to ±2
+                  : (distance >= 1
+                    ? lerp(0.85, 0.75, (distance - 1) * 2)  // Position ±1 to ±1.5
+                    : lerp(1, 0.85, distance)))))
           
           // Smooth calculations based on virtual position (includes drag offset)
           const absoluteVirtualPosition = Math.abs(virtualPosition)
           
-          // Smooth opacity
-          const opacity = absoluteVirtualPosition > 2.5 
-            ? 0
-            : (absoluteVirtualPosition >= 2
-              ? 0.4
-              : (absoluteVirtualPosition > 1
-                ? lerp(0.7, 0.4, absoluteVirtualPosition - 1)
-                : lerp(1, 0.7, absoluteVirtualPosition)))
+          // Smooth opacity for 7 visible images
+          const opacity = absoluteVirtualPosition > 3.2 
+            ? 0  // Hide images beyond position ±3.2
+            : (absoluteVirtualPosition >= 3
+              ? lerp(0.3, 0, (absoluteVirtualPosition - 3) * 5)  // Fade out outermost
+              : (absoluteVirtualPosition >= 2.5
+                ? lerp(0.5, 0.3, (absoluteVirtualPosition - 2.5) * 2)
+                : (absoluteVirtualPosition >= 2
+                  ? lerp(0.6, 0.5, (absoluteVirtualPosition - 2) * 2)
+                  : (absoluteVirtualPosition >= 1.5
+                    ? lerp(0.75, 0.6, (absoluteVirtualPosition - 1.5) * 2)
+                    : (absoluteVirtualPosition >= 1
+                      ? lerp(0.85, 0.75, (absoluteVirtualPosition - 1))
+                      : lerp(1, 0.85, absoluteVirtualPosition))))))
           
-          const zIndex = Math.floor(10 - distance * 2)
-          // Adjusted spacing to show side images properly
-          const translateX = lerp(0, 45, virtualPosition)
-          const rotateY = lerp(0, -15, virtualPosition)
+          const zIndex = Math.floor(15 - distance * 2)
+          // Adjusted spacing for 7 images - more compact but visible
+          const translateX = lerp(0, 35, virtualPosition)  // Reduced from 45 to 35
+          const rotateY = lerp(0, -12, virtualPosition)    // Slightly reduced rotation
           
-          // Smooth overlay alpha
-          const overlayAlpha = absoluteVirtualPosition >= 2
-            ? 0.5
-            : (absoluteVirtualPosition > 1
-              ? lerp(0.3, 0.5, absoluteVirtualPosition - 1)
-              : 0.15)
+          // Smooth overlay alpha for 7 images
+          const overlayAlpha = absoluteVirtualPosition >= 3
+            ? 0.6  // Darkest for outermost images
+            : (absoluteVirtualPosition >= 2.5
+              ? lerp(0.5, 0.6, (absoluteVirtualPosition - 2.5) * 2)
+              : (absoluteVirtualPosition >= 2
+                ? lerp(0.4, 0.5, (absoluteVirtualPosition - 2) * 2)
+                : (absoluteVirtualPosition >= 1.5
+                  ? lerp(0.3, 0.4, (absoluteVirtualPosition - 1.5) * 2)
+                  : (absoluteVirtualPosition > 1
+                    ? lerp(0.2, 0.3, (absoluteVirtualPosition - 1))
+                    : 0.1))))
 
           const isCenter = imageIndex === currentIndex
           

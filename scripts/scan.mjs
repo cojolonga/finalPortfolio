@@ -197,6 +197,10 @@ async function processProject(projectPath) {
           project.cover = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`
         }
       }
+      // Set videoCategory from info.yml if available
+      if (info && info.videoCategory) {
+        project.videoCategory = info.videoCategory
+      }
     } else if (finalFiles.length > 0) {
       project.video = {
         final: { type: 'file', src: `/content/${category}/${projectName}/${finalFiles[0]}` }

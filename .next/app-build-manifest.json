@@ -26,6 +26,21 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
+    "/restores/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/restores/page.js"
+    ],
+    "/edits/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/edits/page.js"
+    ],
+    "/portraits/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/portraits/page.js"
+    ],
     "/videos/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

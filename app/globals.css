@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --background: 11 11 11; /* #0b0b0b */
+    --foreground: 255 255 255; /* #ffffff */
+    --border: 42 42 42; /* #2a2a2a */
+  }
+}
+
 /* Modern CSS effects and transitions for graphic designer aesthetic */
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
@@ -108,9 +116,9 @@
 }
 
 :root {
-  --bg: #000000;
-  --bg-secondary: #111111;
-  --bg-card: #1a1a1a;
+  --bg: transparent;
+  --bg-secondary: transparent;
+  --bg-card: transparent;
   --fg: #ffffff;
   --fg-secondary: #cccccc;
   --fg-muted: #888888;
@@ -137,7 +145,7 @@ body {
 
 body {
   color: var(--fg);
-  background: var(--bg);
+  background: #0b0b0b;
 }
 
 a {
