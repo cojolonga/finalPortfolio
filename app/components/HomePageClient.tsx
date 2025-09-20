@@ -325,7 +325,7 @@ function MainContent({ projects }: { projects: Project[] }) {
               Hire Me on Upwork
             </a>
             <a
-              href="mailto:contact@arsai.com"
+              href="mailto:saldelcri@gmail.com"
               className="inline-flex items-center px-8 py-4 border-2 border-criforge-accent text-criforge-accent hover:bg-criforge-accent hover:text-white font-bold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
               style={{
                 boxShadow: '0 8px 20px rgba(139, 69, 19, 0.2), inset 0 0 20px rgba(139, 69, 19, 0.1)',
@@ -395,7 +395,7 @@ function MainContent({ projects }: { projects: Project[] }) {
                 GitHub
               </a>
               <a
-                href="mailto:contact@arsai.com"
+                href="mailto:saldelcri@gmail.com"
                 className="text-criforge-fg-secondary hover:text-criforge-accent transition-colors"
               >
                 Email
