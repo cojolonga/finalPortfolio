@@ -313,7 +313,7 @@ function MainContent({ projects }: { projects: Project[] }) {
             </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
-              href="https://upwork.com"
+              href="https://www.upwork.com/freelancers/~01656b1b5c62d20ce9"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 bg-criforge-accent hover:bg-criforge-accent-dark text-white font-bold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
@@ -401,7 +401,7 @@ function MainContent({ projects }: { projects: Project[] }) {
                 Email
               </a>
               <a
-                href="https://upwork.com"
+                href="https://www.upwork.com/freelancers/~01656b1b5c62d20ce9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-criforge-fg-secondary hover:text-criforge-accent transition-colors"
